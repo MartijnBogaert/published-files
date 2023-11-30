@@ -244,7 +244,7 @@ Computer Hardware Shop""";
   temp:belongsToPlane <https://example.org/BPMNPlane_1>;
   temp:correspondsToBpmnElement <https://example.org/SequenceFlow_035vf60>;
   temp:hasBPMNLabel _:21;
-  temp:hasWaypoints "LINESTRING(990 476, 1086 476, 1086 674)"^^geo:wktLiteral .
+  temp:hasWaypoints "LINESTRING(990.5 476, 1086 476.5, 1086 674)"^^geo:wktLiteral .
 
 <https://example.org/SequenceFlow_06kfaev> rdfs:subClassOf bbo:SequenceFlow;
   bbo:has_sourceRef <https://example.org/ExclusiveGateway_0z5sib0>;
